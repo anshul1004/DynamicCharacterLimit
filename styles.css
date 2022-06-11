@@ -40,7 +40,11 @@ input:focus {
   background-color: rgb(253, 245, 196);
 }
 
-button {
+a {
+  text-decoration: none;
+}
+
+button, a {
   font: inherit;
   background-color: rgb(209, 184, 23);
   border: 1px solid rgb(209, 184, 23);
@@ -50,7 +54,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover, a:hover {
   background-color: rgb(209, 197, 23);
   border-color: rgb(209, 197, 23);
 }
